@@ -106,7 +106,7 @@ Similarly, when autoscale switches back to the default profile, it first checks 
 ![autoscale settings](./media/autoscale-best-practices/insights-autoscale-best-practices-2.png)
 
 ### Considerations for scaling when multiple rules are configured in a profile
-There are cases where you may have to set multiple rules in a profile. The following set of autoscale rules are used by services use when multiple rules are set.
+There are cases where you may have to set multiple rules in a profile. The following set of autoscale rules are used by the autoscale engine when multiple rules are set.
 
 On *scale out*, autoscale runs if any rule is met.
 On *scale-in*, autoscale require all rules to be met.
